@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fristor</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Company: Fristor Technologies, Country: Malaysia, Category: Landing Page, Summary: Business Process Automation">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="fristor.js"></script>
+    <link rel="stylesheet" type="text/css" href="fristor.css">
+
+    <style>
+        .content {
+            color: #404040;
+            text-align: left
+        }
+        .title {
+            color: #c34533;
+            font-weight: bold
+        }
+    </style>
+</head>
+
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+    <div class="w3-bar w3-grey w3-card" id="myNavbar">
+        <a href="#home"><img src="fristor-logo.png" alt="Logo" style="width:104px; height:34px; margin-top:10px; margin-left:8px"></a>
+        <!-- Right-sided navbar links -->
+        <div class="w3-right w3-hide-small">
+            <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-globe"></i> ABOUT</a>
+            <a href="#services" class="w3-bar-item w3-button"><i class="fa fa-user"></i> SERVICES</a>
+            <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+            <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+        </div>
+
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-grey w3-card w3-animate-right w3-hide-medium w3-hide-large" style="display:none;right:0" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16 w3-hover w3-right-align">X</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-globe"></i> ABOUT</a>
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-user"></i> SERVICES</a>
+    <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+</nav>
+
+
+<!-- Header with full-height image -->
+<div style="height:58px" id="home"></div>
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="xhome">
+    <div class="w3-display-left w3-text-red" style="padding:48px">
+    </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-padding-16 w3-light-grey" id="about"></div>
+<div class="w3-container w3-light-grey w3-padding-16">
+    <h3 class="w3-center title">ABOUT THE COMPANY</h3>
+    <div class="content">
+        <p>Fristor Technologies Sdn Bhd is a technology company founded in 2005 specialising in software development and building automation. 
+        For many years, the company has been providing customised solutions for building owners by integrating all the different systems and 
+        devices in a building onto a single open platform so they can communicate and work together seamlessly. 
+        The automation solutions that we provide are unique to the requirement of business owners to ensure efficiency. 
+        In recent years, we have expanded our team and our expertise to provide customised <b>BUSINESS APPLICATION SERVICE</b> to improve efficiency and 
+        boost the productivity of organisations that are concerned about business efficiency and are willing to embrace technology to automate 
+        routine manual tasks.</p>
+    </div>
+</div>
+
+<!-- Services Section -->
+<div class="w3-padding-16 w3-white" id="services"></div>
+<div class="w3-container w3-white w3-padding-16">
+    <h3 class="w3-center title">OUR SERVICES</h3>
+    <div class="w3-row-padding w3-center">
+        <div class="w3-half">
+            <i class="fa fa-cog w3-jumbo w3-center"></i>
+            <h4>Business Process Automation</h4>
+            <p class="content">
+                The use of technology to automate repetitive business processes can increase efficiency, minimize cost and improve service quality. 
+                At Fristor, we aim to provide high-quality <b>Business Process Automation (BPA)</b> by understanding the underlying processes thoroughly and 
+                successfully implementing <b>BPA</b>.
+            </p>
+        </div>
+        <div class="w3-half">
+            <i class="fa fa-desktop w3-jumbo"></i>
+            <h4>Transaction Processing System</h4>
+            <p class="content">
+                We provide the information processing system to track all business transaction processes. Data can be captured more accurately and 
+                efficiently for analytics purposes to assist in making informed business decisions for improved profitability.
+            </p>
+        </div>
+    </div>
+    <div class="w3-row-padding w3-center">
+        <div class="w3-half">
+            <i class="fa fa-diamond w3-jumbo"></i>
+            <h4>Customised Solution</h4>
+            <p class="content">
+                We understand that no two companies are the same. We commit to understanding the business process of your company. 
+                Our customised digital solutions specifically for your organisation through a mobile web application is cost-effective and 
+                provides a competitive edge for your business.
+            </p>
+        </div>
+        <div class="w3-half">
+            <i class="fa fa-users w3-jumbo"></i>
+            <h4>Business Process Consultancy</h4>
+            <p class="content">
+                Our team has the expertise in designing customised solutions to streamline business processes through conducting 
+                thorough discussions with clients, review of work processes, analysis and providing technical support throughout the entire <b>BPA</b> implementation.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-padding-16 w3-light-grey" id="work"></div>
+<div class="w3-container w3-light-grey w3-padding-16">
+    <h3 class="w3-center title">OUR WORK</h3>
+    <div class="w3-row-padding w3-center">
+        <div class="w3-half">
+            <h4>Linen Management</h4>
+            <img src="linen.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Linen Management System (LMS)" id="lms">
+            <p class="content">
+                The <b>Linen Management System (LMS)</b> tracks the business process and quantities of linen exchanged between the hospital and 
+                the outsourced vendor for laundry. This system uses RFID technology to track the linen. A web application identifies the person 
+                performing the tasks and recording the amount of linen collected and delivered to ensure no loss of linen when handled. 
+                <b>LMS</b> has reduced the amount of lost linen and minimised the financial loss to replace them.
+            </p>
+        </div>
+        <div class="w3-half">
+            <h4>Newborn Management</h4>
+            <img src="nbms.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Newborn Management System (NBMS)" id="nbms">
+            <p class="content">
+                The <b>Newborn Management System (NBMS)</b> tracks the baby's bassinet position and mother's location using Bluetooth and RFID technologies. 
+                An integrated web application enforces the business processes such as baby registration, the registration of the mother's room, 
+                the transfers by nurses between baby and mother, and others.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-padding-16 w3-white" id="contact"></div>
+<div class="w3-container w3-white w3-padding-16">
+    <h3 class="w3-center title">CONTACT US</h3>
+    <div class="w3-row-padding">
+        <div class="w3-half">
+            <iframe title="Location of Fristor Technologies" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.674546101529!2d101.74180754910147!3d3.180053597673207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc3712ed020913%3A0xd3ee59d069855ddc!2sFRISTOR%20TECHNOLOGIES%20SDN.BHD!5e0!3m2!1sen!2smy!4v1608279993028!5m2!1sen!2smy" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" height="300" width="100%"></iframe>
+        </div>
+        <div class="w3-half">
+            <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i><a rel="noreferrer" target="_blank" href="https://maps.google.com/maps?ll=3.180054,101.744002&z=16&t=m&hl=en&gl=MY&mapclient=embed&cid=15271242138118348252">Setiawangsa, Kuala Lumpur</a></p>
+            <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i><a href="tel:+60342664463">+603 4266 4463</a></p>
+            <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i><a href="mailto:info@fristor.com">info@fristor.com</a></p>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="w3-container w3-light-grey w3-padding-small w3-center w3-small">
+    <p style="font-weight:bold">Powered by Fristor Technologies</p>
+    <div style="color:grey"><a rel="noreferrer" target="_blank" href="https://www.freepik.com/photos/background">Background photo created by nikitabuida - www.freepik.com</a></div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" src="" alt="Photo" class="w3-image">
+        <p id="caption" class="w3-opacity w3-large"></p>
+    </div>
+</div>
+
+<script>
+
+	// Modal Image Gallery
+	function onClick(element) {
+	  document.getElementById("img01").src = element.src;
+	  document.getElementById("modal01").style.display = "block";
+	  var captionText = document.getElementById("caption");
+	  captionText.innerHTML = element.alt;
+	}
+
+	// Toggle between showing and hiding the sidebar when clicking the menu icon
+	var mySidebar = document.getElementById("mySidebar");
+
+	function w3_open() {
+	  if (mySidebar.style.display === 'block') {
+	    mySidebar.style.display = 'none';
+	  } else {
+	    mySidebar.style.display = 'block';
+	  }
+	}
+
+	// Close the sidebar with the close button
+	function w3_close() {
+	    mySidebar.style.display = "none";
+	}
+</script>
+
+</body>
+</html>
